@@ -63,8 +63,9 @@ Formatted Markdown Brochure
 ### Setup
 
 ```bash
-# 1. Clone or open the repo
-cd "/Users/nusratjahan/Desktop/8 weeks of llm engineering"
+# 1. Clone the repository
+git clone https://github.com/nj25suha/llm-engineering.git
+cd llm-engineering
 
 # 2. Create virtual environment
 python -m venv .venv
@@ -73,9 +74,9 @@ source .venv/bin/activate
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Add your API key
-# The .env file already contains OPENAI_API_KEY
-# Verify it's set before running
+# 4. Add your OpenAI API key
+# Create a .env file in the project root with:
+# OPENAI_API_KEY=your_api_key_here
 ```
 
 ### Run the Notebook
@@ -222,4 +223,4 @@ for chunk in stream:
 ---
 
 **Last Updated:** April 2026  
-**Maintainer:** Nusrat Jahan (@nj25suha)
+**Repository:** llm-engineering (nj25suha)
